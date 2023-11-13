@@ -3,6 +3,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+// Subset sum
 public class Program_01 {
     public static List<Integer> subsetSums(List<Integer> arr, int N) {
         List<Integer> subsetSum = new ArrayList<>();
