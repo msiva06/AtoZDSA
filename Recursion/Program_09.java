@@ -1,3 +1,4 @@
+// pow(x,n)
 public class Program_09 {
     public double myPow(double x, int n) {
         long pow = n;
