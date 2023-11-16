@@ -1,3 +1,4 @@
+// Binary strings with no consecutive 1s added
 public class Program_13 {
     public static List< String > generateString(int N) {
         List<String> res = new ArrayList<String>();
