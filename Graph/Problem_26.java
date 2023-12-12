@@ -4,6 +4,15 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 
 // Prim's Algorithm
+
+class Pair{
+	int node;
+	int weight;
+	public Pair(int node,int weight){
+		this.node = node;
+		this.weight = weight;
+	}
+}
 public class Problem_26 {
     public static ArrayList<ArrayList<Integer>> calculatePrimsMST(int n, int m, ArrayList<ArrayList<Integer>> g)
     {
