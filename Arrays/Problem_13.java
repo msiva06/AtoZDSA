@@ -25,6 +25,14 @@ public class Problem_13 {
             }
             right++;
         }
-        return elem;
+        int count = 0;
+        for(int i = 0; i < v.length; i++){
+            if(v[i] == elem)
+             count++;
+        }
+        int maxLen = v.length/2;
+        if(count > maxLen)
+         return elem;
+        return 0;
      }
 }
