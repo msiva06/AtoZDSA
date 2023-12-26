@@ -1,6 +1,7 @@
 package StacksAndQueues;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 // Maximum of minimum for every window size
 public class Problem_12 {
