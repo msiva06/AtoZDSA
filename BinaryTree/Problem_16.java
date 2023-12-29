@@ -4,9 +4,7 @@ package BinaryTree;
 public class Problem_16 {
     
     public static boolean isBalancedBT(TreeNode<Integer> root) {
-        if(checkBalanced(root) == -1)
-            return false;
-        return true;
+        return checkBalanced(root) != -1;
     }
 
     public static int checkBalanced(TreeNode<Integer> root){
